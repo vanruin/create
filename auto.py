@@ -66,7 +66,7 @@ def main():
           
        
 proxi=["N"]
-proxyi = open("TOOLS/ambot/crack/prox.txt", "r").read().splitlines()
+proxyi = open("prox.txt", "r").read().splitlines()
 def autocr(firstn,lastn,passw):
   global loop, ok
   try:
@@ -214,6 +214,7 @@ for dommn in domm['domains']:
     domi.append(dommn['name'])
 def autocr2(firstn,lastn,passw):
   global loop, ok
+  #TOOLS\ambot\crack\auto.py
   try:
         sys.stdout.write("\r \33[1;35mJOVAN \033[1;37m(\033[1;36m%s\033[1;37m/\033[1;31m%s\033[1;35m) \033[1;32mSUCCESS:-%s"%(loop,l,len(ok)));sys.stdout.flush()
         ua=random.choice(open("ua.txt","r").read().splitlines())
