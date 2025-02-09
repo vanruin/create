@@ -41,8 +41,8 @@ def main():
       clear()
       logo()
       rp(pan("[bold cyan]SAVE IN:\n/sdcard/atc/auto-create-cookies.txt(format: email|uid|password|cookies)\n/sdcard/code.txt(format: email|password|activation_code)\n/sdcard/atc/auto-create-ok.txt(format: email|password)\n[bold magenta]MAGENTA [bold cyan]= [bold yellow]SUCCESS\n[bold green]GREEN [bold cyan]= [bold yellow]SUCCESS BUT AUTO APPROVE FAIL\n[bold red]RED [bold cyan]= [bold yellow]CHECKPOINT",border_style="bold purple"))
-      fnn=open("TOOLS/ambot/crack/fname.txt","r").read().splitlines()
-      lnn=open("TOOLS/ambot/crack/lname.txt","r").read().splitlines()
+      fnn=open("fname.txt","r").read().splitlines()
+      lnn=open("lname.txt","r").read().splitlines()
       rp(pan("[bold cyan][[bold yellow]1[bold cyan]][bold green] Default Password\n[bold cyan][[bold yellow]2[bold cyan]][bold green] Custom Password",border_style="bold magenta"))
       passlist=input(" \033[1;37mChoose Number: ")
       pl=[]
